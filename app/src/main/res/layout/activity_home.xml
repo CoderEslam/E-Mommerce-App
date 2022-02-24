@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        android:visibility="gone"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/activity_main_drawer" />
+
+    <com.shrikanthravi.customnavigationdrawer2.widget.SNavigationDrawer
+        android:id="@+id/navigationDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:HamMenuIconTintColor="@android:color/white"
+        app:appbarColor="@android:color/black"
+        app:appbarTitleTextColor="@android:color/white"
+        app:appbarTitleTextSize="7sp"
+        app:navigationDrawerBackgroundColor="#151515"
+        app:primaryMenuItemTextColor="@android:color/white"
+        app:primaryMenuItemTextSize="7sp"
+        app:secondaryMenuItemTextColor="@android:color/white"
+        app:secondaryMenuItemTextSize="7sp">
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.shrikanthravi.customnavigationdrawer2.widget.SNavigationDrawer>
+
+
+</LinearLayout>

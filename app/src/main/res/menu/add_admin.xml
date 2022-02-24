@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/addDriver"
+        android:title="Add Driver"/>
+
+    <item
+        android:id="@+id/addSeller"
+        android:title="Add Seller"/>
+
+</menu>

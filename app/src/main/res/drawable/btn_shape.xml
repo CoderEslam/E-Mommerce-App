@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/ripplecoloreffect"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:targetApi="lollipop">
+
+    <!--    ripplecoloreffect  to give a color for button-->
+
+    <item>
+        <shape>
+            <solid android:color="@color/btnSignIn"/>
+            <stroke android:color="@color/btnSignIn" android:width="2dp"/>
+            <corners android:radius="150dp"/>
+        </shape>
+    </item>
+</ripple>
+
+<!--<shape xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+<!--    <gradient-->
+<!--        android:angle="50"-->
+<!--        android:centerColor="@color/white"-->
+<!--        android:centerX="50"-->
+<!--        android:centerY="10"-->
+<!--        android:endColor="@color/purple_500"-->
+<!--        android:gradientRadius="20dp"-->
+<!--        android:startColor="@color/purple_200"-->
+<!--        />-->
+
+<!--    <corners-->
+<!--        android:bottomLeftRadius="50dp"-->
+<!--        android:bottomRightRadius="50dp"-->
+<!--        android:topRightRadius="50dp"-->
+<!--        />-->
+
+
+<!--</shape>-->

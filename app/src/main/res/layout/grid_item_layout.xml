@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/buttons_white"
+    android:elevation="2dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:layout_margin="2dp">
+
+    <ImageView
+        android:id="@+id/g_s_productImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/g_s_product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text="name"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/g_s_productImage"
+        app:layout_constraintStart_toStartOf="@+id/g_s_productImage"
+        app:layout_constraintTop_toBottomOf="@+id/g_s_productImage" />
+
+    <TextView
+        android:id="@+id/g_s_product_Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text="des"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/g_s_product_name"
+        app:layout_constraintStart_toStartOf="@+id/g_s_product_name"
+        app:layout_constraintTop_toBottomOf="@+id/g_s_product_name" />
+
+    <TextView
+        android:id="@+id/g_s_product_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text="price"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/g_s_product_Description"
+        app:layout_constraintStart_toStartOf="@+id/g_s_product_Description"
+        app:layout_constraintTop_toBottomOf="@+id/g_s_product_Description" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

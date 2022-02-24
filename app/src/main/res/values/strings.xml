@@ -1,0 +1,224 @@
+<resources>
+    <string name="app_name">E_CommerceApp</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="your_address">Your Home Address</string>
+    <string name="your_phone_number">Your Phone Number</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_city_name">Your City Name</string>
+    <string name="congratsmsg">Congratulations, your final order has been placed successfully. Soon it will be verified</string>
+    <string name="welcomemsg">Buy Products From My App</string>
+
+    <string name="Strip">Strip</string>
+    <string name="Banner">Banner</string>
+    <string name="Driver">Driver</string>
+    <string name="Seller">Seller</string>
+
+    <string-array name="array_Ad">
+        <item>@string/Strip</item>
+        <item>@string/Banner</item>
+    </string-array>
+
+    <string-array name="Admin">
+        <item>@string/Driver</item>
+        <item>@string/Seller</item>
+    </string-array>
+
+
+    <string-array name="TrademarkCloses">
+        <item>Zara زارا</item>
+        <item>Under Armour أندر أرمور</item>
+        <item>Nike نايكي</item>
+        <item>Versace فيرساتشي</item>
+        <item>Dolce and gabbana دولتشي أند غابانا</item>
+        <item>Armani أرماني</item>
+        <item>Louis Vuitton لويس فويتون</item>
+        <item>Gucci جوتشي</item>
+        <item>Lacoste لاكوست</item>
+        <item>Banana Republic بانانا ريبابلك</item>
+        <item>Timberland تمبرلاند</item>
+        <item>Alyx أليكس</item>
+        <item>H&amp;M اتش اند ام</item>
+    </string-array>
+
+
+    <!--& with &amp;
+    > with &gt;
+    < with &lt;
+    " with &quot;, &ldquo; or &rdquo;
+    ' with &apos;, &lsquo; or &rsquo;
+    } with &#125;-->
+
+    <string-array name="array_categoey">
+        <item>احذيه و ملابس</item>
+        <item>الساعات</item>
+        <item>العطور</item>
+        <item>الصحه الجمال</item>
+        <item>مجوهرات و اكسسوراتها</item>
+        <item>مستلزمات النوم</item>
+        <item>مستلزمات الاستحمام</item>
+        <item>الكاميرات</item>
+        <item>الالكترونيات</item>
+        <item>كمبيوتر و برامج</item>
+        <item>موبيلات واجهزه تابلت</item>
+        <item>ألعاب الفيديو</item>
+        <item>مستلزمات الحدائق</item>
+        <item>الاجهزه المنزليه</item>
+        <item>ادوات و معدات تطوير المنزل</item>
+        <item>المأكولات و المشروبات</item>
+        <item>اجهزه المطبخ</item>
+        <item>أفلام و موسيقي</item>
+        <item>معدات و تجهيزات المكاتب</item>
+        <item>الرياضه وادواتها</item>
+        <item>حرف و فنون</item>
+        <item>البصريات</item>
+        <item>اخرى</item>
+    </string-array>
+
+    <string-array name="shoes_and_clothes">
+        <item>حقائب يد</item>
+        <item>حقائب ظهر</item>
+        <item>حقائب بعجلات</item>
+        <item>شورتات</item>
+        <item>بنطلونات</item>
+        <item>جيبات</item>
+        <item>ملابس نوم</item>
+        <item>ملابس سباحه</item>
+        <item>بلوزات,تيشيرتات,قمصان</item>
+        <item>ملابس داخليه</item>
+        <item>لانجري</item>
+    </string-array>
+
+    <string-array name="Watches">
+        <item>ساعات ذكية</item>
+        <item>ساعات</item>
+    </string-array>
+    <string-array name="perfume">
+        <item>عطور</item>
+    </string-array>
+
+    <string-array name="health_and_beauty">
+        <item>أدوات التجميل</item>
+        <item>ألكترونيات تصفيف الشعر</item>
+        <item>أكسسورارت للشعر</item>
+        <item>مكياج</item>
+        <item>مرايا</item>
+        <item>ماكينات حلاقه كهربية</item>
+        <item>شعر مستعار</item>
+        <item>النظافه الشخصيه</item>
+    </string-array>
+
+    <string-array name="Jewelry_and_accessories">
+        <item>اساور</item>
+        <item>مجوهرات نفيسة</item>
+        <item>أطقم مجوهرات</item>
+        <item>سلاسل</item>
+        <item>خواتم</item>
+        <item>مجوهرات رجالي</item>
+    </string-array>
+
+    <string-array name="SleepingEssentials">
+        <item>بطانيات و لحافات</item>
+        <item>مراتب</item>
+        <item>مخدات</item>
+    </string-array>
+
+    <string-array name="ShowerEssentials">
+        <item>مستلزمات الحمام</item>
+        <item>شاورات و رؤوس استحمام</item>
+        <item>منظفات</item>
+        <item>مناشف</item>
+    </string-array>
+
+    <string-array name="cameras">
+        <item>كاميرات فيديو رقميه</item>
+        <item>اكسسورارت الكاميرات(شواحن,بطاريات,حقائب)</item>
+        <item>عدسات قابله للتبديل</item>
+        <item>كروت ذاكرة</item>
+    </string-array>
+
+    <string-array name="electronics">
+        <item>سماعات</item>
+        <item>ميكروفونات</item>
+        <item>راديوهات محموله</item>
+        <item>بطاريات</item>
+        <item>مناظير وتلسكوبات</item>
+        <item>شواحن</item>
+        <item>باور بانك</item>
+        <item>أجهزة عرض</item>
+        <item>معدات التسجيل</item>
+        <item>كاميرات ويب</item>
+    </string-array>
+
+    <string-array name="Mobiles_and_tablets">
+        <item>موبيلات</item>
+        <item>تابلت</item>
+        <item>واقيات الشاشة</item>
+    </string-array>
+
+    <string-array name="Video_games">
+        <item>playstation</item>
+        <item>أجهزة الواقع الأفتراضي</item>
+        <item>اكسيسوارات ألعاب الفيديو</item>
+        <item>بطاريات</item>
+    </string-array>
+
+    <string-array name="gardens_Accessories">
+        <item>ادوات الشوي</item>
+        <item>ورد</item>
+        <item>ديكور الحديقة</item>
+        <item>مكافحة الحشرات</item>
+        <item>ماكينات حلاقه كهربية</item>
+        <item>شعر مستعار</item>
+        <item>النظافه الشخصيه</item>
+    </string-array>
+
+    <string-array name="household_appliance">
+        <item>مكيفات الهواء</item>
+        <item>مراوح</item>
+        <item>مدافئ</item>
+        <item>سخانات ماء</item>
+        <item>مكاوي</item>
+        <item>الات الخياطة ةأكسسواراتها</item>
+        <item>غسالات</item>
+        <item>مكانس كهربائية</item>
+        <item>تلفزيونات</item>
+    </string-array>
+
+    <string-array name="Home_improvement_tools_and_equipment">
+        <item>الادوات الكهربية</item>
+        <item>ادوات يدوية</item>
+        <item>ادوات القياس و التخطيط</item>
+        <item>الطلاق و لوازم الدهان</item>
+
+    </string-array>
+
+    <string-array name="crafts_and_arts">
+        <item>انتيكات</item>
+        <item>حرف يدوية ومنحوات وتحف</item>
+    </string-array>
+
+    <string-array name="optics">
+        <item>عدسات لاصقه</item>
+        <item>نظارات</item>
+        <item>اكسسوارات النظارات</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="film_genres">Opened</string>
+    <string name="drawer_open">opened</string>
+    <string name="drawer_close">close</string>
+    <string name="title_activity_seller_map">Map</string>
+    <string name="title_activity_driver_map">Map</string>
+
+</resources>

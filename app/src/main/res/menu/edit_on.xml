@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/addCategory"
+        android:icon="@drawable/plus_one"
+        android:title="Add Category"
+        />
+
+    <item
+        android:id="@+id/EditOnAdmin"
+        android:icon="@drawable/plus_one"
+        android:title="Edit Admin"
+        />
+
+    <item android:id="@+id/Advertisement"
+        android:title="Advertisement"/>
+
+      <!--for seller only-->
+
+    <item
+        android:id="@+id/callCar"
+        android:title="call Driver"/>
+    <item
+        android:id="@+id/logout_btn"
+        android:title="Logout"/>
+
+</menu>
